@@ -1,0 +1,42 @@
+#ignora arquivos sensiveis e temporarios dentro do docker/app
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Ambientes virtuais
+venv/
+.env/
+.envrc
+
+# =========================
+# FastAPI / Uvicorn
+# =========================
+*.log
+
+# =========================
+# Docker (LAB)
+# =========================
+Dockerfile
+dockerfile
+dockerfile.*
+Dockerfile.*
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Sistema Operacional
+# =========================
+.DS_Store
+Thumbs.db
+
